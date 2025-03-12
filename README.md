@@ -22,7 +22,7 @@ Macinect explores methods to utilize Kinect sensors on macOS running on Apple Si
 
 ## Development Status
 
-Macinect: Project Update
+## Macinect: Project Update 12-03-2025
 Latest Developments for Kinect on Apple Silicon
 Virtual Machine Approach Update
 We're making progress on the Macinect project with a significant change to our virtualization strategy. Here's what's new:
