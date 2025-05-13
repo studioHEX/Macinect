@@ -12,6 +12,8 @@ Macinect explores methods to utilize Kinect sensors on macOS running on Apple Si
 
 This section outlines the progress and current status of our efforts to integrate the Microsoft Kinect sensor into our project.
 
+## Development Status
+
 ### Recent Updates (May 13, 2025)
 
 * **Virtual Machine Migration:** We have transitioned our virtual machine environment from Parallels to UTM. This shift aligns with our preference for open-source solutions.
@@ -28,20 +30,6 @@ This section outlines the progress and current status of our efforts to integrat
     * Implementing **computer vision techniques** to perform skeleton tracking directly on the raw depth image data.
 
 This native approach aims to provide a more efficient and robust solution by running the entire process directly on the host MacBook Pro M4.
-
-### Current Approach
-
-- Running Kinect drivers through a Virtual Box VM
-- Transmitting sensor data via OSC (Open Sound Control) protocol to the main macOS system
-- Leveraging open-source technologies to maintain flexibility and community collaboration
-
-### Future Goals
-
-- Develop native support for Kinect on Apple Silicon
-- Optimize performance for M-series processors
-- Create an accessible API for macOS developers
-
-## Development Status
 
 ## Macinect: Project Update 12-03-2025
 Latest Developments for Kinect on Apple Silicon
@@ -80,6 +68,18 @@ Limited access to advanced Kinect features through the current pipeline
 
 
 This remains an active research project with ongoing development. Contributions and feedback welcome!
+
+### Current Approach
+
+- Running Kinect drivers through a Virtual Box VM
+- Transmitting sensor data via OSC (Open Sound Control) protocol to the main macOS system
+- Leveraging open-source technologies to maintain flexibility and community collaboration
+
+### Future Goals
+
+- Develop native support for Kinect on Apple Silicon
+- Optimize performance for M-series processors
+- Create an accessible API for macOS developers
 
 ## Requirements
 
